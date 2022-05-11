@@ -9,11 +9,11 @@ class persona{
     
 public cualEsTuNombre(): string{
     return "mi nombre es "+ this.nombre.split(" ")
-}
+};
 
 public CualEsTuEdad(): string{
     return "MI EDAD ES "
-}
+};
 public CualEsTuGeneracion(){
     if (this.nacimiento<1975){
         return "soy un baby boomer";
@@ -27,11 +27,11 @@ public CualEsTuGeneracion(){
     if (this.nacimiento >=2010){
         return "soy un generacion Z"
     }  
-
-public QueAñoNaciste(){
+};
+public QueAñoNaciste() {
     const edad:number= 2022-(this.nacimiento)
     return "mi edad es " +edad
-}
+};
 };
 //termina la defi de la clase persona
 let fede= new persona(2001, "origin");

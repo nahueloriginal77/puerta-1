@@ -32,4 +32,4 @@ export class Persona {
         const edad: number = 2022 - (this.nacimiento);
         return "mi edad es " + edad;
     };
-}
+};
